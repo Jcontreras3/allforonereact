@@ -28,6 +28,43 @@
   color: #61dafb;
 }
 
+.rowBg {
+  background: rgb(195, 0, 215);
+  background: linear-gradient(
+    180deg,
+    rgba(195, 0, 215, 1) 25%,
+    rgba(0, 0, 0, 0.9867297260701156) 99%
+  );
+  height: 5rem;
+}
+
+.contStyle {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9867297260701156) 32%,
+    rgba(195, 0, 215, 1) 83%
+  );
+  height: 100vh;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.pTxt {
+  font-size: 25px;
+  color: purple;
+}
+
+.rowStyle {
+  background-color: black;
+}
+
+
+.inputStyle{
+  margin-top: 10rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
